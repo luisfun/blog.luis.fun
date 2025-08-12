@@ -1,0 +1,7 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "blog-luis-fun",
+  "compatibility_date": "2025-08-12",
+  "assets": { "directory": "./dist"/*, "not_found_handling": "404-page"*/ },
+  //"routes": [{ "pattern": "blog.luis.fun", "custom_domain": true }]
+}
