@@ -1,6 +1,6 @@
 ---
 import { type CollectionEntry, getCollection, render } from 'astro:content'
-import FormattedDate from '../components/FormattedDate.astro'
+import Time from '../components/time.astro'
 import Layout from '../components/layout.astro'
 
 export async function getStaticPaths() {
@@ -24,11 +24,11 @@ const { title, description, emoji, created, updated } = post.data
 	<div class="prose">
 		<div class="title">
 			<div class="date">
-				<FormattedDate date={created} />
+				<Time date={created} />
 				{
 					updated && (
 						<div class="last-updated-on">
-							Last updated on <FormattedDate date={updated} />
+							Last updated on <Time date={updated} />
 						</div>
 					)
 				}
