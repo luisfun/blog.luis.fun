@@ -1,15 +1,16 @@
 ---
-import Head from './head.astro';
-import Header from './header.astro';
-import Footer from './footer.astro';
+import './global.css'
+import Footer from './footer.astro'
+import Head from './head.astro'
+import Header from './header.astro'
 
 type Props = {
-	title: string
-	description: string
-	image?: ImageMetadata;
+  title?: string
+  description?: string
+  image?: ImageMetadata
 }
 
-const { title, description, image } = Astro.props;
+const { title, description, image } = Astro.props
 ---
 
 <!doctype html>

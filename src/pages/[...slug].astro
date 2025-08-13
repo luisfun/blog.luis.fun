@@ -1,20 +1,20 @@
 ---
-import { type CollectionEntry, getCollection, render } from 'astro:content';
-import Layout from '../components/layout.astro';
-import FormattedDate from '../components/FormattedDate.astro';
+import { type CollectionEntry, getCollection, render } from 'astro:content'
+import FormattedDate from '../components/FormattedDate.astro'
+import Layout from '../components/layout.astro'
 
 export async function getStaticPaths() {
-	const posts = await getCollection("post");
-	return posts.map((post) => ({
-		params: { slug: post.id },
-		props: post,
-	}));
+  const posts = await getCollection('post')
+  return posts.map(post => ({
+    params: { slug: post.id },
+    props: post,
+  }))
 }
-type Props = CollectionEntry<'post'>;
+type Props = CollectionEntry<'post'>
 
-const post = Astro.props;
-const { Content } = await render(post);
-const { title, description, emoji, created, updated } = post.data;
+const post = Astro.props
+const { Content } = await render(post)
+const { title, description, emoji, created, updated } = post.data
 ---
 
 <Layout title={title} description={description} >

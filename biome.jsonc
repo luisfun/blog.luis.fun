@@ -1,0 +1,28 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.1.4/schema.json",
+  "formatter": {
+    "indentStyle": "space",
+    "lineWidth": 120
+  },
+  "javascript": {
+    "globals": ["Astro"],
+    "formatter": {
+      "arrowParentheses": "asNeeded",
+      "quoteStyle": "single",
+      "jsxQuoteStyle": "double",
+      "semicolons": "asNeeded"
+    }
+  },
+  "linter": {
+    "rules": {
+      "recommended": true,
+      "correctness": {
+        "noUnusedImports": "off", // Astro
+        "noUnusedVariables": "off" // Astro
+      }
+    }
+  },
+  "files": {
+    "includes": [".github/**", "src/**", "*.ts", "*.md", "*.json", "*.jsonc"]
+  }
+}

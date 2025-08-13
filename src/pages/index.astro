@@ -1,15 +1,12 @@
 ---
-import { getCollection } from 'astro:content';
-import Layout from '../components/layout.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
-import FormattedDate from '../components/FormattedDate.astro';
+import { getCollection } from 'astro:content'
+import FormattedDate from '../components/FormattedDate.astro'
+import Layout from '../components/layout.astro'
 
-const posts = (await getCollection('post')).sort(
-	(a, b) => b.data.created.valueOf() - a.data.created.valueOf(),
-);
+const posts = (await getCollection('post')).sort((a, b) => b.data.created.valueOf() - a.data.created.valueOf())
 ---
 
-<Layout title={SITE_TITLE} description={SITE_DESCRIPTION}>
+<Layout>
 			<h1>🧑‍🚀 Hello, Astronaut!</h1>
 			<p>
 				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
