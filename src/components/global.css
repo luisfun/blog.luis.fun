@@ -20,12 +20,24 @@
   --blue-5: #1f6feb;
   --text-0: var(--mono-0);
   --text-1: var(--mono-1);
-  --text-2: var(--mono-2);
+  --text-2: var(--mono-5);
   --bg-0: var(--mono-e);
   --bg-1: var(--mono-f);
   --bg-2: var(--mono-d);
   --link: var(--blue-5);
-  --border: 1px solid var(--mono-5);
+  --border: 1px solid var(--mono-a);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-0: var(--mono-f);
+    --text-1: var(--mono-e);
+    --text-2: var(--mono-a);
+    --bg-0: var(--mono-0);
+    --bg-1: var(--mono-1);
+    --bg-2: var(--mono-2);
+    --link: var(--blue-3);
+    --border: 1px solid var(--mono-5);
+  }
 }
 html {
   font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
@@ -37,12 +49,21 @@ html {
 body {
   margin: 0;
 }
-main {
-  width: 720px;
-  max-width: calc(100% - 2em);
-  margin: auto;
-  padding: 3em 1em;
+button {
+  margin: 0;
+  padding: 0;
+  color: var(--text-1);
+  background: transparent;
+  border: none;
 }
+.flex {
+  display: flex;
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
 h1,
 h2,
 h3,

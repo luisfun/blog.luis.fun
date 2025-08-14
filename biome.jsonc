@@ -23,6 +23,6 @@
     }
   },
   "files": {
-    "includes": [".github/**", "src/**", "*.ts", "*.md", "*.json", "*.jsonc"]
+    "includes": [".github/**", "src/**", "*.ts", "*.mjs", "*.md", "*.json", "*.jsonc"]
   }
 }

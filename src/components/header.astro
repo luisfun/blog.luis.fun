@@ -1,10 +1,14 @@
 ---
-import { SITE_TITLE } from '../consts'
+import { Icon } from 'astro-icon/components'
+import Search from './search.astro'
 ---
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<a href="/">
+			<Icon name="luisfun" class="logo" />
+ 		</a>
+		<Search />
 		<div class="social-links">
 			<a href="https://m.webtoo.ls/@astro" target="_blank">
 				<span class="sr-only">Follow Astro on Mastodon</span>
@@ -40,9 +44,17 @@ import { SITE_TITLE } from '../consts'
 	header {
 		margin: 0;
 		padding: 0 1em;
-		background: white;
+		background: var(--bg-2);
 		box-shadow: 0 2px 8px rgba(var(--text-1), 5%);
 	}
+	.logo {
+		width: 2rem;
+		height: auto;
+		color: var(--mono-f);
+		background: var(--mono-0);
+	}
+
+
 	h2 {
 		margin: 0;
 		font-size: 1em;
@@ -58,7 +70,7 @@ import { SITE_TITLE } from '../consts'
 		justify-content: space-between;
 	}
 	nav a {
-		padding: 1em 0.5em;
+		padding: .5em .5em;
 		color: var(--text-1);
 		border-bottom: 4px solid transparent;
 		text-decoration: none;

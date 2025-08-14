@@ -1,8 +1,11 @@
 ---
 import './global.css'
-import Footer from './footer.astro'
+//import Header from './header.astro'
+import { Icon } from 'astro-icon/components'
+import Search from 'astro-pagefind/components/Search'
+import { SITE_TITLE } from '../consts'
 import Head from './head.astro'
-import Header from './header.astro'
+import Link from './link.astro'
 
 type Props = {
   title?: string
@@ -17,18 +20,77 @@ const { title, description, image } = Astro.props
 <html lang="ja">
 	<Head title={title} description={description} image={image} />
 	<body>
-		<Header />
+		<header class="flex justify-between">
+			<a href="/" class="flex">
+				<Icon name="luisfun" class="logo-icon" />{SITE_TITLE}
+			</a>
+			<button type="button" onclick="search_dialog.showModal()" class="search-button flex justify-between">
+				<Icon name="mdi:search" class="search-icon" />
+				<div class="search-label">検索</div><div></div>
+			</button>
+			<dialog id="search_dialog">
+				aaa
+			</dialog>
+		</header>
 		<main>
 			<slot />
 		</main>
-		<Footer />
+		<footer class="flex justify-between">
+			<div></div>
+			<Link href='https://github.com/luisfun/blog.luis.fun' icon="simple-icons:github" class="footer-link" />
+		</footer>
 	</body>
 </html>
 
 <style>
-	main {
-		width: calc(100% - 2em);
-		max-width: 100%;
-		margin: 0;
+	body {
+		width: 91.6667%;
+		max-width: 64rem;
+		margin: auto;
+	}
+	header {
+		padding: 1rem;
+		border-bottom: var(--border);
+	}
+	header a {
+		color: var(--text-1);
+		text-decoration: none;
+		cursor: pointer;
+	}
+	.logo-icon {
+		width: 2rem;
+		height: auto;
+		margin-right: .5rem;
+		color: var(--mono-f);
+		background: var(--mono-0);
+		outline: var(--border);
+		border-radius: 30.9017%;
+	}
+	.search-button {
+		width: 5rem;
+		height: 2rem;
+		padding: 0 .5rem;
+		background: var(--bg-2);
+		outline: var(--border);
+		border-radius: 9999px;
+		cursor: pointer;
+	}
+	.search-icon {
+		width: 1.25rem;
+		height: auto;
+	}
+	.search-label {
+		color: var(--text-2);
+	}
+	footer {
+		padding: 1rem;
+		border-top: var(--border);
+		text-align: center;
+	}
+	.footer-link {
+		width: 1.25rem;
+		height: auto;
+		color: var(--text-2);
+		text-decoration: none;
 	}
 </style>

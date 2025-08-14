@@ -15,11 +15,14 @@
     "@astrojs/rss": "^4.0.12",
     "@astrojs/sitemap": "^3.4.2",
     "@biomejs/biome": "2.1.4",
+    "@iconify-json/mdi": "^1.2.3",
+    "@iconify-json/simple-icons": "^1.2.47",
     "astro": "^5.12.9",
+    "astro-icon": "^1.1.5",
     "astro-pagefind": "^1.8.3",
     "rehype-mathjax": "^7.1.0",
     "remark-math": "^6.0.0",
     "sharp": "^0.34.3",
-    "wrangler": "^4.28.1"
+    "wrangler": "^4.29.0"
   }
 }

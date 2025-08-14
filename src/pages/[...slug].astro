@@ -1,7 +1,7 @@
 ---
 import { type CollectionEntry, getCollection, render } from 'astro:content'
-import Time from '../components/time.astro'
 import Layout from '../components/layout.astro'
+import Time from '../components/time.astro'
 
 export async function getStaticPaths() {
   const posts = await getCollection('post')

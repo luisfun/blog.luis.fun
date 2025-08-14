@@ -1,0 +1,10 @@
+---
+import type { HTMLAttributes } from 'astro/types'
+
+type Props = HTMLAttributes<'a'>
+const { ...rest } = Astro.props
+---
+
+<a rel="noreferrer" target="_blank" {...rest}>
+  <slot />
+</a>

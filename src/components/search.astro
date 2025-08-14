@@ -1,0 +1,18 @@
+---
+import { Icon } from 'astro-icon/components'
+import * as Pagefind from 'astro-pagefind/components/Search'
+
+type Props = {
+  min?: boolean
+}
+const { min } = Astro.props
+
+const id = `search_dialog${min ? '_min' : ''}`
+---
+
+<button type="button" onclick={`${id}.showModal()`}>
+  <Icon name="mdi:search" />
+</button>
+<dialog id={id}>
+  aaa
+</dialog>
