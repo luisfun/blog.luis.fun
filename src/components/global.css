@@ -18,21 +18,17 @@
   --blue-3: #58a6ff;
   --blue-4: #388bfd;
   --blue-5: #1f6feb;
-  --text-0: var(--mono-0);
   --text-1: var(--mono-1);
   --text-2: var(--mono-5);
-  --bg-0: var(--mono-e);
   --bg-1: var(--mono-f);
-  --bg-2: var(--mono-d);
+  --bg-2: var(--mono-e);
   --link: var(--blue-5);
   --border: 1px solid var(--mono-a);
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --text-0: var(--mono-f);
     --text-1: var(--mono-e);
     --text-2: var(--mono-a);
-    --bg-0: var(--mono-0);
     --bg-1: var(--mono-1);
     --bg-2: var(--mono-2);
     --link: var(--blue-3);
