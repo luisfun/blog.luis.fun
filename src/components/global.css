@@ -24,6 +24,13 @@
   --bg-2: var(--mono-e);
   --link: var(--blue-5);
   --border: 1px solid var(--mono-a);
+  --pagefind-ui-primary: var(--text-1) !important;
+  --pagefind-ui-text: var(--text-1) !important;
+  --pagefind-ui-background: var(--bg-1) !important;
+  --pagefind-ui-border: var(--text-2) !important;
+  --pagefind-ui-tag: var(--text-2) !important;
+  --pagefind-ui-border-width: 1px !important;
+  --pagefind-ui-font: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif !important;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -51,6 +58,15 @@ button {
   color: var(--text-1);
   background: transparent;
   border: none;
+  cursor: pointer;
+}
+a {
+  color: var(--link);
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 .flex {
   display: flex;
@@ -87,12 +103,6 @@ h5 {
 strong,
 b {
   font-weight: 700;
-}
-a {
-  color: var(--link);
-}
-a:hover {
-  color: var(--link);
 }
 p {
   margin-bottom: 1em;

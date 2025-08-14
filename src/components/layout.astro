@@ -5,6 +5,7 @@ import Search from 'astro-pagefind/components/Search'
 import FallbackImage from '../assets/blog-placeholder-1.jpg'
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts'
 import Link from './link.astro'
+
 //import type { ImageMetadata } from 'astro'
 
 type Props = {
@@ -45,34 +46,39 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 				<Icon name="mdi:search" class="search-icon" />
 				<div class="search-label">検索</div><div></div>
 			</button>
-			<dialog id="search_dialog">
-				aaa
+			<dialog id="search_dialog" class="modal">
+				<div class="modal-box">
+					<Search uiOptions={{ showImages: false, excerptLength: 20, debounceTimeoutMs: 100, showSubResults: true }} />
+				</div>
+				<form method="dialog" class="modal-backdrop">
+					<button aria-label="閉じる"></button>
+				</form>
 			</dialog>
 		</header>
 		<main>
 			<slot />
 		</main>
 		<footer class="flex justify-between">
-			<div></div>
+			<div>
+				<a href="/privacy-policy">プライバシーポリシー</a>
+			</div>
 			<Link href='https://github.com/luisfun/blog.luis.fun' icon="simple-icons:github" class="footer-link" />
 		</footer>
 	</body>
 </html>
 
 <style>
-	body {
+	body, .modal-box {
 		width: 91.6667%;
 		max-width: 64rem;
 		margin: auto;
 	}
 	header {
-		padding: 1rem;
+		padding: 1rem 0;
 		border-bottom: var(--border);
 	}
 	header a {
 		color: var(--text-1);
-		text-decoration: none;
-		cursor: pointer;
 	}
 	.logo-icon {
 		width: 2rem;
@@ -90,7 +96,6 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 		background: var(--bg-2);
 		outline: var(--border);
 		border-radius: 9999px;
-		cursor: pointer;
 	}
 	.search-icon {
 		width: 1.25rem;
@@ -99,15 +104,65 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 	.search-label {
 		color: var(--text-2);
 	}
+	.modal {
+    pointer-events: none;
+		opacity: 0;
+    position: fixed;
+		display: grid;
+    inset: 0;
+    margin: 0;
+		padding: 0;
+		border: none;
+		width: 100%;
+		max-width: none;
+		height: 100%;
+		max-height: none;
+    overscroll-behavior: contain;
+    z-index: 999;
+    color: inherit;
+    background: transparent;
+		backdrop-filter: blur(.25rem);
+    overflow-y: hidden;
+	}
+	.modal[open] {
+		pointer-events: auto;
+		visibility: visible;
+		opacity: 1;
+	}
+	.modal-box {
+    grid-column-start: 1;
+    grid-row-start: 1;
+		width: calc(83.3333% - 4rem);
+		max-width: 48rem;
+		min-height: 15rem;
+		max-height: calc(91.6667svh - 4rem);
+		margin: 4.1667svh auto auto;
+		padding: 2rem;
+		background: var(--bg-2);
+		border: var(--border);
+		border-radius: 1rem;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+	}
+	.modal-backdrop{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    z-index: -1;
+    display: grid;
+    align-self: stretch;
+    justify-self: stretch;
+    color: transparent;
+	}
 	footer {
-		padding: 1rem;
+		padding: 1rem 0;
 		border-top: var(--border);
 		text-align: center;
+	}
+	footer a, .footer-link {
+		color: var(--text-2);
 	}
 	.footer-link {
 		width: 1.25rem;
 		height: auto;
-		color: var(--text-2);
-		text-decoration: none;
 	}
 </style>
