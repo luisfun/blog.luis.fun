@@ -1,28 +1,58 @@
 ---
+import { Image } from 'astro:assets'
 import { getCollection } from 'astro:content'
-import Layout from '../components/layout.astro'
-import Time from '../components/time.astro'
-import NewTab from '../components/new-tab.astro'
 import { Icon } from 'astro-icon/components'
+import DiscordHonoImage from '../assets/discordhono.png'
+import LuisFunImage from '../assets/luisfun.png'
+import PaimonPlusImage from '../assets/paimon.png'
+import Layout from '../components/layout.astro'
+import NewTab from '../components/new-tab.astro'
+import Time from '../components/time.astro'
 
 const posts = (await getCollection('post')).sort((a, b) => b.data.created.valueOf() - a.data.created.valueOf())
+if (posts.length > 30) posts.length = 30
+
+const works = [
+  {
+    title: 'luis.fun',
+    description: '作ったものまとめ',
+    url: 'https://luis.fun',
+    image: LuisFunImage,
+  },
+  {
+    title: 'Discord Hono',
+    description: 'Botを作るライブラリ',
+    url: 'https://discord-hono.luis.fun/ja/',
+    image: DiscordHonoImage,
+  },
+  {
+    title: 'Paimon+',
+    description: '原神webツール',
+    url: 'https://paimon.plus/ja/',
+    image: PaimonPlusImage,
+  },
+]
 ---
 
 <Layout>
 	<div data-pagefind-ignore>
 		<h1>るいすの備忘録</h1>
-		<h2>主な制作物</h2>
-		<ul>
-			<li>
-				<NewTab href="https://luis.fun">ホームページ</NewTab> 作ったものまとめ
-			</li>
-			<li>
-				<NewTab href="https://discord-hono.luis.fun/ja/">Discord Hono</NewTab> Discord Botを作るライブラリ
-			</li>
-			<li>
-				<NewTab href="https://paimon.plus/ja/">Paimon+</NewTab> 原神webツール
-			</li>
-		</ul>
+		<h2>作ったもの</h2>
+		<div class="cards">
+			{
+				works.map((work) => (
+					<NewTab class="card flex" href={work.url}>
+						<div class="card-image flex justify-center">
+							<Image src={work.image} alt={work.title} class="card-icon work-icon" />
+						</div>
+						<div class="card-content">
+							<div class="card-title">{work.title}</div>
+							<div>{work.description}</div>
+						</div>
+					</NewTab>
+				))
+			}
+		</div>
 		<h2>書き物</h2>
 		<div class="cards">
 			{
@@ -45,18 +75,25 @@ const posts = (await getCollection('post')).sort((a, b) => b.data.created.valueO
 <style>
 	.cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, min(20rem, 100%));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 2rem;
     justify-content: center;
 	}
 	.card {
 		gap: 1rem;
+		text-decoration: none;
+	}
+	.card:hover .card-title {
+		text-decoration: underline;
 	}
 	.card-image {
 		width: 6rem;
 		height: 6rem;
 		background: var(--bg-2);
 		border-radius: 1rem;
+	}
+	.work-icon {
+		border-radius: 30.9017%;
 	}
 	.card-icon {
 		width: 3rem;
