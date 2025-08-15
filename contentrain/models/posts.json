@@ -41,5 +41,18 @@
       }
     },
     "fieldType": "string"
+  },
+  {
+    "name": "Created",
+    "fieldId": "created",
+    "modelId": "posts",
+    "componentId": "date",
+    "options": {},
+    "validations": {
+      "required-field": {
+        "value": true
+      }
+    },
+    "fieldType": "date"
   }
 ]
