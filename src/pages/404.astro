@@ -7,7 +7,7 @@ const posts = (await getCollection('post')).sort((a, b) => b.data.created.valueO
 ---
 
 <Layout>
-  <div class="hero flex">
+  <div class="hero flex" data-pagefind-ignore>
     <h1>404</h1>
 		<button type="button" onclick="search_dialog.showModal()" class="search-button flex justify-between">
 			<Icon name="mdi:search" class="search-icon" />
