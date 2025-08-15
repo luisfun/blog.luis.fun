@@ -28,5 +28,18 @@
       }
     },
     "fieldType": "string"
+  },
+  {
+    "name": "Description",
+    "fieldId": "description",
+    "modelId": "posts",
+    "componentId": "single-line-text",
+    "options": {},
+    "validations": {
+      "required-field": {
+        "value": true
+      }
+    },
+    "fieldType": "string"
   }
 ]
