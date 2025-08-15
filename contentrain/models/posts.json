@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Emoji",
+    "fieldId": "emoji",
+    "modelId": "posts",
+    "componentId": "single-line-text",
+    "options": {},
+    "validations": {
+      "required-field": {
+        "value": true
+      }
+    },
+    "fieldType": "string"
+  }
+]
