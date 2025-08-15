@@ -17,4 +17,4 @@
 
 ## License
 - Source code: MIT License
-- Articles (/src/contents): No License (copyright reserved)
+- Articles (/src/assets, /src/contents): No License (Copyright reserved)

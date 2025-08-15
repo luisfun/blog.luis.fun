@@ -82,6 +82,13 @@ h5 {
 h6 {
   font-size: 0.875rem;
 }
+p,
+ul {
+  margin: 1rem 0;
+}
+ul {
+  padding-inline-start: 1.5rem;
+}
 button {
   margin: 0;
   padding: 0;
@@ -112,12 +119,6 @@ a:hover {
 strong,
 b {
   font-weight: 700;
-}
-p {
-  margin-bottom: 1em;
-}
-.prose p {
-  margin-bottom: 2em;
 }
 textarea {
   width: 100%;
