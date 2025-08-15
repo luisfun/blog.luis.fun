@@ -1,12 +1,12 @@
 ---
 ID: "5e97fe672592"
-createdAt: "Fri Aug 15 2025 20:41:38 GMT+0900 (日本標準時)"
-updatedAt: "Fri Aug 15 2025 20:41:38 GMT+0900 (日本標準時)"
+createdAt: "2025-08-15T11:41:38.000Z"
+updatedAt: "2025-08-15T11:43:36.728Z"
+status: "publish"
 emoji: "hoge"
 title: "test"
 description: "test-desc"
-created: "2025-08-15T11:42:00.000Z"
-status: "draft"
+created: "2025-08-14T11:42:00.000Z"
 scheduled: false
 path: "src/contents"
 ---
