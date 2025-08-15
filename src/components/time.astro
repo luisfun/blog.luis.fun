@@ -1,9 +1,22 @@
 ---
+import { Icon } from 'astro-icon/components'
+
 interface Props {
   date: Date
+  icon?: "mdi:update" | (string & {})
 }
-
-const { date } = Astro.props
+const { date, icon = "mdi:calendar-month" } = Astro.props
 ---
+  
+<div class="flex">
+  <Icon name={icon} class="icon" />
+  <time datetime={date.toISOString()}>{date.toLocaleDateString('sv-SE')}</time>
+</div>
 
-<time datetime={date.toISOString()}>{date.toLocaleDateString('sv-SE')}</time>
+<style>
+  .icon {
+    width: 1.125rem;
+    height: auto;
+    margin-right: 0.25rem;
+  }
+</style>

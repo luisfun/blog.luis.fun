@@ -1,2 +1,2 @@
-export const SITE_TITLE = 'るいメモ'
-export const SITE_DESCRIPTION = 'ようこそ、私のブログへ！'
+export const SITE_TITLE = 'るいログ'
+export const SITE_DESCRIPTION = 'ただのメモ帳かもしれない'

@@ -2,6 +2,7 @@
 import { type CollectionEntry, getCollection, render } from 'astro:content'
 import Layout from '../components/layout.astro'
 import Time from '../components/time.astro'
+import {Icon} from 'astro-icon/components'
 
 export async function getStaticPaths() {
   const posts = await getCollection('post')
@@ -15,27 +16,35 @@ type Props = CollectionEntry<'post'>
 const post = Astro.props
 const { Content } = await render(post)
 const { title, description, emoji, created, updated } = post.data
+
+const fontSize = (1 / Math.E) ** (title.length / 10) / 2 + 2
 ---
 
 <Layout title={title} description={description} >
-	<div class="hero-image">
-		{emoji && <div>{emoji}</div>}
-	</div>
-	<div class="prose">
-		<div class="title">
-			<div class="date">
-				<Time date={created} />
-				{
-					updated && (
-						<div class="last-updated-on">
-							Last updated on <Time date={updated} />
-						</div>
-					)
-				}
-			</div>
-			<h1>{title}</h1>
-			<hr />
+	<div class="hero flex">
+		<Icon name={emoji} class="hero-icon" />
+		<h1 class="hero-title" style={`font-size: ${fontSize}rem`}>{title}</h1>
+		<div class="hero-time flex">
+			<Time date={created} />
+			{updated && (<Time date={updated} icon="mdi:update" />)}
 		</div>
-		<Content />
 	</div>
+	<Content />
 </Layout>
+
+<style>
+	.hero {
+		margin: 4rem 0;
+		flex-direction: column;
+	}
+	.hero-icon {
+		width: 4rem;
+		height: auto;
+	}
+	.hero-title {
+		margin: 1.25rem 0 1.375rem;
+	}
+	.hero-time {
+		gap: 1rem;
+	}
+</style>
