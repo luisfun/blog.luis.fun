@@ -3,9 +3,9 @@ import { Icon } from 'astro-icon/components'
 
 interface Props {
   date: Date
-  icon?: "mdi:update" | (string & {})
+  icon?: 'mdi:update' | (string & {})
 }
-const { date, icon = "mdi:calendar-month" } = Astro.props
+const { date, icon = 'mdi:calendar-month' } = Astro.props
 ---
   
 <div class="flex">

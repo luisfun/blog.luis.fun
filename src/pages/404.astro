@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content'
+import { Icon } from 'astro-icon/components'
+import Layout from '../components/layout.astro'
+
+const posts = (await getCollection('post')).sort((a, b) => b.data.created.valueOf() - a.data.created.valueOf())
+---
+
+<Layout>
+  <div class="hero flex">
+    <h1>404</h1>
+		<button type="button" onclick="search_dialog.showModal()" class="search-button flex justify-between">
+			<Icon name="mdi:search" class="search-icon" />
+			<div class="search-label">サイト内検索</div><div></div>
+		</button>
+  </div>
+</Layout>
+
+<style>
+  .hero {
+    flex-direction: column;
+    margin: 8rem 0;
+  }
+  h1 {
+    margin: 0 0 2rem;
+  }
+	.search-button {
+		width: 16rem;
+		height: 3rem;
+		padding: 0 .75rem;
+		background: var(--bg-2);
+		outline: var(--border);
+		border-radius: 9999px;
+	}
+	.search-icon {
+		width: 2rem;
+		height: auto;
+	}
+	.search-label {
+    font-size: 1.5rem;
+		color: var(--text-2);
+	}
+</style>

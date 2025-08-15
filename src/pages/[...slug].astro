@@ -1,8 +1,8 @@
 ---
 import { type CollectionEntry, getCollection, render } from 'astro:content'
+import { Icon } from 'astro-icon/components'
 import Layout from '../components/layout.astro'
 import Time from '../components/time.astro'
-import {Icon} from 'astro-icon/components'
 
 export async function getStaticPaths() {
   const posts = await getCollection('post')
@@ -46,5 +46,6 @@ const fontSize = (1 / Math.E) ** (title.length / 10) / 2 + 2
 	}
 	.hero-time {
 		gap: 1rem;
+		color: var(--text-2);
 	}
 </style>
