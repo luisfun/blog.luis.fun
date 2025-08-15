@@ -54,5 +54,14 @@
       }
     },
     "fieldType": "date"
+  },
+  {
+    "name": "Updated",
+    "fieldId": "updated",
+    "modelId": "posts",
+    "componentId": "date",
+    "options": {},
+    "validations": {},
+    "fieldType": "date"
   }
 ]
