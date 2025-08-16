@@ -115,6 +115,9 @@ a:hover {
 .justify-between {
   justify-content: space-between;
 }
+mjx-container[jax="SVG"][display="true"] {
+  overflow-x: auto;
+}
 
 strong,
 b {
