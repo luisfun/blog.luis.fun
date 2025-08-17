@@ -79,5 +79,21 @@
       }
     },
     "fieldType": "string"
+  },
+  {
+    "name": "Slug",
+    "fieldId": "slug",
+    "modelId": "posts",
+    "componentId": "slug",
+    "options": {},
+    "validations": {
+      "required-field": {
+        "value": true
+      },
+      "unique-field": {
+        "value": true
+      }
+    },
+    "fieldType": "string"
   }
 ]
