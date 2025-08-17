@@ -73,5 +73,14 @@
       }
     },
     "fieldType": "string"
+  },
+  {
+    "name": "isUpdated",
+    "fieldId": "isupdated",
+    "modelId": "posts",
+    "componentId": "checkbox",
+    "options": {},
+    "validations": {},
+    "fieldType": "boolean"
   }
 ]
