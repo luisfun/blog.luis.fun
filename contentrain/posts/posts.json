@@ -2,8 +2,9 @@
   {
     "ID": "5e97fe672592",
     "createdAt": "2025-08-15T11:41:38.000Z",
-    "updatedAt": "2025-08-17T09:53:00.495Z",
-    "status": "changed",
+    "updatedAt": "2025-08-17T09:58:03.940Z",
+    "status": "publish",
+    "slug": "test-slug",
     "emoji": "hoge",
     "title": "test",
     "description": "test-desc",
