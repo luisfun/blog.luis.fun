@@ -46,13 +46,10 @@
     "name": "Body",
     "fieldId": "body",
     "modelId": "posts",
-    "componentId": "multi-line-text",
+    "componentId": "md-editor",
     "options": {},
     "validations": {
       "required-field": {
-        "value": true
-      },
-      "unique-field": {
         "value": true
       }
     },
