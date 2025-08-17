@@ -45,9 +45,9 @@ const works = [
 						<div class="card-image flex justify-center">
 							<Image src={work.image} alt={work.title} class="card-icon work-icon" />
 						</div>
-						<div class="card-content">
+						<div>
 							<div class="card-title">{work.title}</div>
-							<div>{work.description}</div>
+							<div class="card-text">{work.description}</div>
 						</div>
 					</NewTab>
 				))
@@ -61,9 +61,11 @@ const works = [
 						<div class="card-image flex justify-center">
 							<Icon name={post.data.emoji} class="card-icon" />
 						</div>
-						<div class="card-content">
+						<div>
 							<div class="card-title">{post.data.title}</div>
-							<Time date={post.data.updated || post.data.created} icon={post.data.updated ? "mdi:update" : undefined} />
+							<div class="card-text">
+								<Time date={post.data.updated || post.data.created} icon={post.data.updated ? "mdi:update" : undefined} />
+							</div>
 						</div>
 					</a>
 				))
@@ -87,8 +89,9 @@ const works = [
 		text-decoration: underline;
 	}
 	.card-image {
-		width: 6rem;
-		height: 6rem;
+		flex-shrink: 0;
+		width: 5.25rem;
+		aspect-ratio: 1;
 		background: var(--bg-2);
 		border-radius: 1rem;
 	}
@@ -96,14 +99,15 @@ const works = [
 		border-radius: 30.9017%;
 	}
 	.card-icon {
-		width: 3rem;
+		width: 2.75rem;
 		height: auto;
-	}
-	.card-content {
-		color: var(--text-2);
 	}
 	.card-title {
 		font-size: 1.25rem;
+		font-weight: bold;
 		color: var(--text-1);
+	}
+	.card-text {
+		color: var(--text-2);
 	}
 </style>

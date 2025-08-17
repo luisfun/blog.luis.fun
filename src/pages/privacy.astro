@@ -3,11 +3,13 @@ import Layout from '../components/layout.astro'
 import NewTab from '../components/new-tab.astro'
 import Time from '../components/time.astro'
 import { SITE_TITLE } from '../consts'
+
+const title = 'プライバシーポリシー'
 ---
 
-<Layout>
+<Layout title={title}>
 	<div data-pagefind-ignore>
-		<h1>プライバシーポリシー</h1>
+		<h1>{title}</h1>
     <p>{SITE_TITLE}（以下、当サイト）は、個人情報の取り扱い及び、免責事項について、下記のように定めます。</p>
 		<h2>個人情報の取り扱いについて</h2>
     <h3>広告配信サービスについて</h3>

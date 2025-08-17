@@ -11,6 +11,7 @@ import remarkMath from 'remark-math'
 // https://astro.build/config
 export default defineConfig({
   site: 'https://blog.luis.fun',
+  trailingSlash: 'always',
   integrations: [mdx(), sitemap(), pagefind(), icon()],
   markdown: { remarkPlugins: [remarkMath], rehypePlugins: [rehypeMathJax] },
 })
