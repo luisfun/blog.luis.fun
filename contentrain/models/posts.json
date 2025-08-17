@@ -43,15 +43,6 @@
     "fieldType": "string"
   },
   {
-    "name": "Updated",
-    "fieldId": "updated",
-    "modelId": "posts",
-    "componentId": "date",
-    "options": {},
-    "validations": {},
-    "fieldType": "date"
-  },
-  {
     "name": "Body",
     "fieldId": "body",
     "modelId": "posts",
