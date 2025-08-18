@@ -83,18 +83,21 @@ h6 {
   font-size: 0.875rem;
 }
 p,
-ul {
+ul,
+ol {
   margin: 1rem 0;
 }
-ul {
+ul,
+ol {
   padding-inline-start: 1.5rem;
 }
 table {
   text-align: center;
   border-spacing: 0;
 }
-th, td {
-  padding: .125rem .375rem;
+th,
+td {
+  padding: 0.125rem 0.375rem;
   border-bottom: 1px solid var(--mono-a);
 }
 button {
