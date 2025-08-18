@@ -1,8 +1,8 @@
 ---
-emoji: "twemoji:baby"
-title: '【WordPress】サブドメインで最初にやったこと'
-description: 'サブドメインで新しいサイトを作ったときのメモ'
-created: '2021-10-31'
+emoji: twemoji:baby
+title: 【WordPress】サブドメインで最初にしたこと
+description: サブドメインで新しいサイトを作ったときのメモ
+created: 2021-10-31
 ---
 
 サブドメインで新しいサイトを作ったときのメモ。  
