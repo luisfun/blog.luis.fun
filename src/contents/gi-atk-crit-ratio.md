@@ -323,7 +323,7 @@ y'&2&...&y'_1&...\\ \hline
 z&...&\nearrow&...&\searrow
 \end{array}
 $$
-したがって、$y′=y′1$ のとき $z$ は最大になる。
+したがって、$y′=y′_1$ のとき $z$ は最大になる。
 
 これらより
 $$
@@ -353,3 +353,8 @@ $$
 https://www.hoyolab.com/article/117691
 
 https://www.hoyolab.com/article/144026
+
+## その他・感想
+
+高校の数学の知識 + グラフ化ツールで無理やり解法を得た。  
+もしかすると、[ラグランジュの未定乗数法](https://risalc.info/src/Lagrange-multiplier.html)を用いると簡単に解法を得られたかもしれない。
