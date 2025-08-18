@@ -1,5 +1,5 @@
 ---
-emoji: twemoji:down-arrow
+emoji: twemoji:no-entry
 title: Cloudflare Pages の設定について
 description: Pages へデプロイしたあと、設定したことのメモ
 created: 2022-03-24
