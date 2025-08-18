@@ -17,7 +17,7 @@ const post = Astro.props
 const { Content } = await render(post)
 const { title, description, emoji, created, updated } = post.data
 
-const fontSize = (1 / Math.E) ** (title.length / 10) / 2 + 2
+const fontSize = (1 / Math.E) ** (title.length / 20) + 1.5
 ---
 
 <Layout title={title} description={description} >

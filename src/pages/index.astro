@@ -47,7 +47,7 @@ const works = [
 				works.map((work) => (
 					<NewTab class="card flex" href={work.url}>
 						<div class="card-image flex justify-center">
-							<Image src={work.image} alt={work.title} class="card-icon work-icon" />
+							<Image src={work.image} alt={work.title} loading="eager" class="card-icon work-icon" />
 						</div>
 						<div>
 							<div class="card-title">{work.title}</div>
