@@ -29,6 +29,6 @@ function mathjaxLeftFunc() {
 [mathjax][mathjaxLeft]
 ```
 
-基本的にMathJaxのプラグインと同じく，記事の最初に一緒に書いておけばOK．
+基本的にMathJaxのプラグインと同じく、記事の最初に一緒に書いておけばOK。
 
 参考：[MathJax - 数式を左寄せにする方法](https://medemanabu.net/latex/mathjax-alignment-left/)
