@@ -115,6 +115,11 @@ a {
 a:hover {
   text-decoration: underline;
 }
+hr {
+  margin: 1rem 0;
+  border: none;
+  border-top: var(--border);
+}
 .flex {
   display: flex;
   align-items: center;
@@ -162,10 +167,6 @@ blockquote {
   padding: 0 0 0 20px;
   margin: 0px;
   font-size: 1.333em;
-}
-hr {
-  border: none;
-  border-top: 1px solid var(--text-2);
 }
 
 .sr-only {
