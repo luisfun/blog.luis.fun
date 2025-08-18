@@ -1,9 +1,16 @@
 ---
-emoji: "twemoji:down-arrow"
-title: 'Markdown Style Guide'
-description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
-created: 'Jun 19 2024'
+emoji: twemoji:down-arrow
+title: Markdown Style Guide
+description: Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
+created: 1970-01-01
+updated: 1971-01-01
 ---
+
+## MDX
+
+import Time from '../components/time.astro'
+
+<Time date={new Date("2024-06-01")} />
 
 ## math
 
@@ -47,7 +54,7 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 
 ### Output
 
-![blog placeholder](../assets/blog-placeholder-about.jpg)
+![blog placeholder](../assets/luisfun.png)
 
 ## Blockquotes
 
@@ -72,13 +79,13 @@ The blockquote element represents content that is quoted from another source, op
 #### Syntax
 
 ```markdown
-> Don't communicate by sharing memory, share memory by communicating.<br>
+> Don't communicate by sharing memory, share memory by communicating.<br/>
 > — <cite>Rob Pike[^1]</cite>
 ```
 
 #### Output
 
-> Don't communicate by sharing memory, share memory by communicating.<br>
+> Don't communicate by sharing memory, share memory by communicating.<br/>
 > — <cite>Rob Pike[^1]</cite>
 
 [^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
