@@ -91,6 +91,9 @@ ul,
 ol {
   padding-inline-start: 1.5rem;
 }
+ul ul {
+  margin: 0 0 .25rem;
+}
 table {
   border-spacing: 0;
 }
