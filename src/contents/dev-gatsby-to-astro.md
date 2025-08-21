@@ -82,7 +82,7 @@ Astro
 - ベンダーロックイン回避
 - ローカル編集が可能
 
-GitベースCMSの候補は以下です。
+GitベースCMSの候補
 
 - [tinaCMS](https://tina.io/)
 - [Contentrain](https://contentrain.io/)

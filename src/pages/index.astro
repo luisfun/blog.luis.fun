@@ -10,9 +10,9 @@ import NewTab from '../components/new-tab.astro'
 import Time from '../components/time.astro'
 
 // 編集記事を上に出したいが、最新の作成記事の方が重要 - これを満たすソート方法
-// 最新の作成記事30
+// 最新の作成記事24
 const posts = (await getCollection('post')).sort((a, b) => b.data.created.valueOf() - a.data.created.valueOf())
-if (posts.length > 30) posts.length = 30
+if (posts.length > 24) posts.length = 24
 // 更新を含めたソート
 posts.sort((a, b) => (b.data.updated || b.data.created).valueOf() - (a.data.updated || a.data.created).valueOf())
 
