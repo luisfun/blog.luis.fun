@@ -121,6 +121,9 @@ GitベースCMSの候補は以下です。
 
 基本的には、疎結合なtinaCMSだと思います。まだ未検証ですが、自前認証の例もあります。
 
+- https://github.com/i40west/netlify-cms-cloudflare-pages
+- https://github.com/sterlingwes/decap-proxy
+
 ### CMSなんてなかった（現状）
 
 現在はVSCodeでローカル編集しています。特に困っていることはなく、むしろGithub Copilot Chatが使えて便利です。
