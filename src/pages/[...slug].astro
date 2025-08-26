@@ -32,19 +32,26 @@ const fontSize = (1 / Math.E) ** (title.length / 20) + 1.5
 		</div>
 	</div>
 	<Content />
-	<div class="ads-space"></div>
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5106375978729065" crossorigin="anonymous"></script>
-		<!-- display-bottom -->
-		<ins class="adsbygoogle"
-			style="display:block"
-			data-ad-client="ca-pub-5106375978729065"
-			data-ad-slot="3405470619"
-			data-ad-format="auto"
-			data-full-width-responsive="true"></ins>
-		<script>
-			// @ts-expect-error
-			(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
+	<div class="ads-wrap flex">
+		{post.id.startsWith("anime-") && <div>
+			<ins class="widget-banner"></ins>
+			<script class="widget-banner-script" src="https://widget-view.dmm.com/js/banner_placement.js?affiliate_id=luis-002&banner_id=879_640_200"></script>
+		</div>}
+		<div>
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5106375978729065" crossorigin="anonymous"></script>
+			<!-- display-bottom -->
+			<ins class="adsbygoogle"
+				style="display:block"
+				data-ad-client="ca-pub-5106375978729065"
+				data-ad-slot="3405470619"
+				data-ad-format="auto"
+				data-full-width-responsive="true"></ins>
+			<script>
+				// @ts-expect-error
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+	</div>
 </Layout>
 
 <style>
@@ -60,16 +67,20 @@ const fontSize = (1 / Math.E) ** (title.length / 20) + 1.5
 		font-size: 1rem;
 		margin: 1.25rem 0 1.375rem;
 	}
-	@media screen and (max-width: 768px) {
-    .hero-title {
-        font-size: .75rem;
-    }
-	}
 	.hero-time {
 		gap: 1rem;
 		color: var(--text-2);
 	}
-	.ads-space {
-		margin-bottom: 4rem;
+	.ads-wrap {
+		margin-top: 4rem;
+		gap: 2rem;
+	}
+	@media screen and (max-width: 768px) {
+    .hero-title {
+        font-size: .75rem;
+    }
+		.ads-wrap {
+			flex-direction: column;
+		}
 	}
 </style>
