@@ -16,9 +16,6 @@
   "linter": {
     "rules": {
       "recommended": true,
-      "complexity": {
-        "noImportantStyles": "off" // --pagefind-ui
-      },
       "correctness": {
         "noUnusedImports": "off", // Astro
         "noUnusedVariables": "off" // Astro

@@ -47,7 +47,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 			</button>
 			<dialog id="search_dialog" class="modal">
 				<div class="modal-box">
-					<Search uiOptions={{ showImages: false, excerptLength: 20, debounceTimeoutMs: 100, showSubResults: true }} />
+					<Search className="pagefind" uiOptions={{ showImages: false, excerptLength: 20, debounceTimeoutMs: 100, showSubResults: true }} />
 				</div>
 				<form method="dialog" class="modal-backdrop">
 					<button aria-label="閉じる"></button>

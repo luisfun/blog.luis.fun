@@ -24,15 +24,6 @@
   --bg-2: var(--mono-e);
   --link: var(--blue-5);
   --border: 1px solid var(--mono-a);
-  --pagefind-ui-primary: var(--text-1) !important;
-  --pagefind-ui-text: var(--text-1) !important;
-  --pagefind-ui-background: var(--bg-1) !important;
-  --pagefind-ui-border: var(--text-2) !important;
-  --pagefind-ui-tag: var(--text-2) !important;
-  --pagefind-ui-border-width: 1px !important;
-  --pagefind-ui-font:
-    -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif,
-    "Segoe UI Emoji" !important;
   color-scheme: light dark;
 }
 @media (prefers-color-scheme: dark) {
@@ -151,6 +142,7 @@ hr {
   border: none;
   border-top: var(--border);
 }
+
 .flex {
   display: flex;
   align-items: center;
@@ -160,6 +152,18 @@ hr {
 }
 .justify-between {
   justify-content: space-between;
+}
+
+.pagefind {
+  --pagefind-ui-primary: var(--text-1);
+  --pagefind-ui-text: var(--text-1);
+  --pagefind-ui-background: var(--bg-1);
+  --pagefind-ui-border: var(--text-2);
+  --pagefind-ui-tag: var(--text-2);
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-font:
+    -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif,
+    "Segoe UI Emoji";
 }
 math {
   margin: 1rem 0;
