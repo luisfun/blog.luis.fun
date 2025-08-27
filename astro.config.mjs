@@ -2,11 +2,11 @@
 
 import mdx from '@astrojs/mdx'
 import sitemap from '@astrojs/sitemap'
-import rehypeMathML from '@daiji256/rehype-mathml'
 import { defineConfig } from 'astro/config'
 import icon from 'astro-icon'
 import pagefind from 'astro-pagefind'
 import rehypeExternalLinks from 'rehype-external-links'
+import rehypeMathJax from 'rehype-mathjax'
 import remarkMath from 'remark-math'
 
 // https://astro.build/config
@@ -16,6 +16,6 @@ export default defineConfig({
   integrations: [mdx(), sitemap(), pagefind(), icon()],
   markdown: {
     remarkPlugins: [remarkMath],
-    rehypePlugins: [rehypeMathML, [rehypeExternalLinks, { target: '_blank', rel: 'noreferrer' }]],
+    rehypePlugins: [rehypeMathJax, [rehypeExternalLinks, { target: '_blank', rel: 'noreferrer' }]],
   },
 })

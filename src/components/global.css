@@ -165,13 +165,11 @@ hr {
     -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif,
     "Segoe UI Emoji";
 }
-math {
-  margin: 1rem 0;
-  font-size: 1.125em;
-  font-family:
-    "Cambria Math", "STIXTwoMath-Regular", "NotoSansMath-Regular", math, -apple-system, BlinkMacSystemFont,
-    "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif, "Segoe UI Emoji";
-  overflow: auto hidden;
+mjx-container[jax="SVG"][display="true"] {
+  overflow-x: auto;
+}
+mjx-container text {
+  font-family: inherit;
 }
 
 blockquote {
