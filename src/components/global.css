@@ -161,8 +161,13 @@ hr {
 .justify-between {
   justify-content: space-between;
 }
-mjx-container[jax="SVG"][display="true"] {
-  overflow-x: auto;
+math {
+  margin: 1rem 0;
+  font-size: 1.125em;
+  font-family:
+    "Cambria Math", "STIXTwoMath-Regular", "NotoSansMath-Regular", math, -apple-system, BlinkMacSystemFont,
+    "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif, "Segoe UI Emoji";
+  overflow: auto hidden;
 }
 
 blockquote {

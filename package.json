@@ -13,18 +13,18 @@
   "dependencies": {
     "@astrojs/mdx": "^4.3.4",
     "@astrojs/rss": "^4.0.12",
-    "@astrojs/sitemap": "^3.5.0",
-    "@biomejs/biome": "2.2.0",
+    "@astrojs/sitemap": "^3.5.1",
+    "@biomejs/biome": "2.2.2",
+    "@daiji256/rehype-mathml": "^1.2.1",
     "@iconify-json/mdi": "^1.2.3",
-    "@iconify-json/simple-icons": "^1.2.48",
+    "@iconify-json/simple-icons": "^1.2.49",
     "@iconify-json/twemoji": "^1.2.4",
-    "astro": "^5.13.2",
+    "astro": "^5.13.4",
     "astro-icon": "^1.1.5",
     "astro-pagefind": "^1.8.3",
     "rehype-external-links": "^3.0.0",
-    "rehype-mathjax": "^7.1.0",
     "remark-math": "^6.0.0",
     "sharp": "^0.34.3",
-    "wrangler": "^4.31.0"
+    "wrangler": "^4.33.0"
   }
 }
