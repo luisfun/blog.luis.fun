@@ -23,7 +23,7 @@ Pages の「カスタムドメイン」タブからポチポチやっていけ�
 
 _headers
 ```
-https://project.pages.dev/*
+https://:project.pages.dev/*
   X-Robots-Tag: noindex
 ```
 
