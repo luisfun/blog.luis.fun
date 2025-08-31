@@ -3,7 +3,7 @@ emoji: twemoji:worm
 title: 2025夏アニメ - ゆるメモ
 description: 2025夏アニメの個人的なおすすめ度とちょっとした感想
 created: 2025-08-25
-updated: 2025-08-26
+updated: 2025-08-31
 ---
 
 原作をあまり読まない人のゆるいメモです。
@@ -22,6 +22,7 @@ updated: 2025-08-26
 |[異世界黙示録マイノグーラ...](https://mynoghra-anime.com/)||★★★☆|
 |[勇者パーティーを追放された白魔導師...](https://tsuiho-shiromadoshi.com/)||★★★|
 |[公女殿下の家庭教師](https://koujodenka-anime.com/)||★★★|
+|[水属性の魔法使い](https://mizuzokusei-anime.com/)||★★★|
 
 ## 見ていて気になったこと
 
@@ -47,7 +48,6 @@ updated: 2025-08-26
 
 |タイトル＋公式サイト|期|
 |-|:-:|
-|[水属性の魔法使い](https://mizuzokusei-anime.com/)||
 |[よふかしのうた](https://yofukashi-no-uta.com/)|2|
 |[SAKAMOTO DAYS](https://sakamotodays.jp/)|続|
 |[青春ブタ野郎...](https://ao-buta.com/)|[?](https://ao-buta.com/special/high_school/)|
