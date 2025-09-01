@@ -1,7 +1,9 @@
+// @ts-check
 import { getCollection } from 'astro:content'
 import rss from '@astrojs/rss'
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts'
 
+// @ts-expect-error
 export async function GET(context) {
   const posts = await getCollection('post')
   return rss({
