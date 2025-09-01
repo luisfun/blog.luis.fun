@@ -1,9 +1,6 @@
 ---
-import { getCollection } from 'astro:content'
 import { Icon } from 'astro-icon/components'
 import Layout from '../components/layout.astro'
-
-const posts = (await getCollection('post')).sort((a, b) => b.data.created.valueOf() - a.data.created.valueOf())
 ---
 
 <Layout>
