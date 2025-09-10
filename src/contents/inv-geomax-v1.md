@@ -2,7 +2,7 @@
 emoji: twemoji:knot
 title: GeoMax は買いか？
 description: 米国株式アグレッシブ・ポートフォリオについてのメモ
-created: 2025-09-09
+created: 2025-09-10
 ---
 
 GeoMaxという投信が気になったので、Fang+と比較した簡単な調査メモ
