@@ -34,7 +34,7 @@ const fontSize = (1 / Math.E) ** (title.length / 20) + 1.5
 	<Content />
 	{post.id.startsWith('inv-') && (
 		<hr />
-		<p>⚠️ この記事は投資に関する個人の考えや考察です。投資の判断はご自身の責任で慎重に行ってください。</p>
+		<p data-pagefind-ignore>⚠️ この記事は投資に関する個人の考えや考察です。投資の判断はご自身の責任で慎重に行ってください。</p>
 	)}
 	<div class="ads-space"></div>
 	{post.id.startsWith("anime-") ? (
