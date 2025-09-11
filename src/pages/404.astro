@@ -1,12 +1,13 @@
 ---
 import { Icon } from 'astro-icon/components'
 import Layout from '../components/layout.astro'
+import { SEARCH_ID } from '../consts'
 ---
 
 <Layout>
   <div class="hero flex" data-pagefind-ignore>
     <h1>404</h1>
-		<button type="button" onclick="search_dialog.showModal()" class="search-button flex justify-between">
+		<button type="button" onclick={`${SEARCH_ID}.showModal()`} class="search-button flex justify-between">
 			<Icon name="mdi:search" class="search-icon" />
 			<div class="search-label">サイト内検索</div><div></div>
 		</button>

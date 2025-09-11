@@ -3,8 +3,8 @@ import './global.css'
 import { Icon } from 'astro-icon/components'
 import Search from 'astro-pagefind/components/Search'
 import FallbackImage from '../assets/luisfun.png'
-import { SITE_DESCRIPTION, SITE_TITLE } from '../consts'
-import Link from './link.astro'
+import { SEARCH_ID, SITE_DESCRIPTION, SITE_TITLE } from '../consts'
+import NewTab from './new-tab.astro'
 
 type Props = {
   title?: string
@@ -40,11 +40,11 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 			<a href="/" class="flex">
 				<Icon name="luisfun" class="logo-icon" />{SITE_TITLE}
 			</a>
-			<button type="button" onclick="search_dialog.showModal()" class="search-button flex justify-between">
+			<button type="button" onclick={`${SEARCH_ID}.showModal()`} class="search-button flex justify-between">
 				<Icon name="mdi:search" class="search-icon" />
 				<div class="search-label">検索</div><div></div>
 			</button>
-			<dialog id="search_dialog" class="modal">
+			<dialog id={SEARCH_ID} class="modal">
 				<div class="modal-box">
 					<Search className="pagefind" uiOptions={{ showImages: false, excerptLength: 20, debounceTimeoutMs: 100, showSubResults: true }} />
 				</div>
@@ -56,11 +56,14 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 		<main data-pagefind-body>
 			<slot />
 		</main>
-		<footer class="flex justify-between">
-			<div>
-				<a href="/privacy/">プライバシーポリシー</a>
-			</div>
-			<Link href='https://github.com/luisfun/blog.luis.fun' icon="simple-icons:github" class="footer-link" />
+		<footer class="flex">
+			<a href="/privacy/">プライバシーポリシー</a>
+			<button type="button" onclick={`${SEARCH_ID}.showModal()`} class="flex footer-search">
+				<Icon name="mdi:search" class="footer-icon" />
+			</button>
+			<NewTab href="https://github.com/luisfun/blog.luis.fun" aria-label="GitHub" class="flex">
+				<Icon name="simple-icons:github" class="footer-icon" />
+			</NewTab>
 		</footer>
 	</body>
 </html>
@@ -159,11 +162,17 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 		border-top: var(--border);
 		text-align: center;
 	}
-	footer a, .footer-link {
+	footer a, .footer-icon {
 		color: var(--text-2);
 	}
-	.footer-link {
+	.footer-search {
+		margin: 0 1rem 0 auto;
+	}
+	.footer-icon {
 		width: 1.25rem;
 		height: auto;
+	}
+	.footer-search > .footer-icon {
+		width: 1.5rem;
 	}
 </style>
