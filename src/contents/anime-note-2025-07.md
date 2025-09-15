@@ -3,7 +3,7 @@ emoji: twemoji:worm
 title: 2025夏アニメ - ゆるメモ
 description: 2025夏アニメの個人的なおすすめ度とちょっとした感想
 created: 2025-08-25
-updated: 2025-08-31
+updated: 2025-09-15
 ---
 
 原作をあまり読まない人のゆるいメモです。
@@ -20,6 +20,7 @@ updated: 2025-08-31
 |[ブサメンガチファイター](https://busamen-gachi-fighter.com/)||★★★★|
 |[自動販売機に生まれ変わった俺...](https://jihanki-anime.com/)|2|★★★☆|
 |[水属性の魔法使い](https://mizuzokusei-anime.com/)||★★★☆|
+|[桃源暗鬼](https://tougenanki-anime.com/)||★★★☆|
 |[異世界黙示録マイノグーラ...](https://mynoghra-anime.com/)||★★★☆|
 |[勇者パーティーを追放された白魔導師...](https://tsuiho-shiromadoshi.com/)||★★★|
 |[公女殿下の家庭教師](https://koujodenka-anime.com/)||★★★|
