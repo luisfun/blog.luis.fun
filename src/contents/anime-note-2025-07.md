@@ -3,7 +3,7 @@ emoji: twemoji:worm
 title: 2025夏アニメ - ゆるメモ
 description: 2025夏アニメの個人的なおすすめ度とちょっとした感想
 created: 2025-08-25
-updated: 2025-09-15
+updated: 2025-09-17
 ---
 
 原作をあまり読まない人のゆるいメモです。
@@ -17,6 +17,7 @@ updated: 2025-09-15
 |[転生したら第七王子だったので...](https://dainanaoji.com/)|2|★★★★☆|
 |[盾の勇者の成り上がり](https://shieldhero-anime.jp/)|4|★★★★|
 |[帝乃三姉妹は案外、チョロい。](https://mikadono.family/)||★★★★|
+|[出禁のモグラ](https://dekinnomogura.com/)||★★★★|
 |[ブサメンガチファイター](https://busamen-gachi-fighter.com/)||★★★★|
 |[自動販売機に生まれ変わった俺...](https://jihanki-anime.com/)|2|★★★☆|
 |[水属性の魔法使い](https://mizuzokusei-anime.com/)||★★★☆|
@@ -51,7 +52,6 @@ updated: 2025-09-15
 |[SAKAMOTO DAYS](https://sakamotodays.jp/)|続|
 |[青春ブタ野郎...](https://ao-buta.com/)|[?](https://ao-buta.com/special/high_school/)|
 |[その着せ替え人形は恋をする](https://bisquedoll-anime.com/)|2|
-|[出禁のモグラ](https://dekinnomogura.com/)||
 |[Dr.STONE](https://dr-stone.jp/)|4続|
 |[アークナイツ](https://arknights-anime.jp/)|3?|
 |[ぬきたし](https://nukiani.com/)||
