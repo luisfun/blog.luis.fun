@@ -11,7 +11,7 @@ created: 2025-09-21
 
 ```css
 html {
-  font-family: "Helvetica Neue", Arial, "Hiragino Sans", "Noto Sans JP", sans-serif;
+  font-family: Arial, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
 }
 code {
   font-family: "SF Mono", Consolas, monospace;
@@ -22,7 +22,13 @@ code {
 
 今回の調査で最も参考にしたのは[ICS MEDIAの記事](https://ics.media/entry/200317/)です。
 
-私のフォントに対する考え方は、基本的にICS MEDIAと同じです。なので、ICS MEDIAとの違いを補足します。
+この記事のコンセプトに、次の自己流コンセプトを加えました。
+
+- iOS、Android、Windowsを主対象（[OSシェア](https://gs.statcounter.com/os-market-share/all/japan)参照）
+- OS間の表示差をできるだけ減らす
+- 総称フォントを活用
+
+### ICS MEDIAとの違い
 
 ICS MEDIAの結論
 
@@ -30,50 +36,54 @@ ICS MEDIAの結論
 font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
 ```
 
-### 違い
-
 |ICS MEDIA|このサイト|
 |:-:|:-:|
-|"Hiragino Kaku Gothic ProN"|（なし）|
+|"Helvetica Neue"|（なし）|
+|"Hiragino Sans"|（なし）|
 |Meiryo|"Noto Sans JP"|
 
-#### Hiragino Kaku Gothic ProN
+#### "Helvetica Neue"除外
 
-- 一部のApple系OSではこのフォントを廃止
-  - Hiragino Sansに同胞されている
-- `"Hiragino Kaku Gothic ProN"`のフォールバックが`"Hiragino Sans"`
-- 一括指定として`"Hiragino Sans"`のみで問題ないと判断
+- HelveticaはApple製品のみ搭載
+  - 統一可能な類似フォントは`Arial`
+
+#### "Hiragino Sans"除外
+
+- Apple製品の`sans-serif`はHiragino Sansが基本
+- コンセプトとしてmacOSを考慮外としている
 
 #### Meiryo → "Noto Sans JP"
 
 - Noto Sans JPは2025年4月にWindowsに標準搭載
-  - `Meiryo`をフォールバックにしてもいいが今回は不採用
+  - `sans-serif`が`"Noto Sans JP", Meiryo`として機能
 - Androidの和文フォントはNoto Sans CJK JP
-  - `"Noto Sans JP"`の方がOS間の違いを減らせる
+  - `"Noto Sans JP"`の方がOS間の表示差を減らせる
 
-#### フォールバックフォント
+#### sans-serif
 
-- Androidは`sans-serif`指定が一般的になりつつある
-- `sans-serif`をキャッチオール兼フォールバックとして利用
+2025年の状況では
+
+- Apple製品：Hiragino Sans
+- Android：Noto Sans CJK JP / OS独自
+- Windows：Noto Sans JP / Meiryo
 
 ### 対応表と完成物
 
 |OS|欧文フォント|和文フォント|
 |:-:|:-:|:-:|
-|Apple製品|Helvetica Neue|Hiragino Sans|
+|iOS|Arial|Hiragino Kaku Gothic ProN|Hiragino Sans|
+|Android|(Roboto)|(Noto Sans CJK JP)|
 |Windows|Arial|Noto Sans JP|
-|Android|sans-serif|sans-serif|
-|フォールバック|sans-serif|sans-serif|
 
 ```css
-font-family: "Helvetica Neue", Arial, "Hiragino Sans", "Noto Sans JP", sans-serif;
+font-family: Arial, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
 ```
 
 ## コードフォント
 
 コードフォントの調査では、[stack overflowの記事](https://stackoverflow.com/questions/59578361/using-apple-system-for-monospace-and-serif)と[Qiitaの記事](https://qiita.com/Paalon/items/5ec1dfe92832a3da44ec)を参考にしました。
 
-一般フォントと同様にApple製品、Windows、フォールバックの3種類を指定するように選択しました。
+一般フォントを参考にApple製品、Windows、フォールバックの3種類を指定するように選択しました。
 
 - Apple製品
   - Xcodeを参考
@@ -88,10 +98,9 @@ font-family: "Helvetica Neue", Arial, "Hiragino Sans", "Noto Sans JP", sans-seri
 
 |OS|フォント|
 |:-:|:-:|
-|Apple製品|SF Mono|
-|Windows|Consolas|
+|iOS|SF Mono|
 |Android|monospace|
-|フォールバック|monospace|
+|Windows|Consolas|
 
 ```css
 font-family: "SF Mono", Consolas, monospace;
