@@ -5,14 +5,16 @@ description: CSS font-familyの指定を見直したメモ
 created: 2025-09-21
 ---
 
+このサイトのfont-familyを見直した時のメモ
+
 ## 結論
 
 ```css
 html {
-  font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Noto Sans JP", sans-serif;
+  font-family: "Helvetica Neue", Arial, "Hiragino Sans", "Noto Sans JP", sans-serif;
 }
 code {
-  font-family: "SF Mono", "Consolas", monospace;
+  font-family: "SF Mono", Consolas, monospace;
 }
 ```
 
@@ -32,14 +34,8 @@ font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino San
 
 |ICS MEDIA|このサイト|
 |:-:|:-:|
-|Arial|"Arial"|
 |"Hiragino Kaku Gothic ProN"|（なし）|
 |Meiryo|"Noto Sans JP"|
-
-#### Arialの記述
-
-- `"`を付けるかどうかの違い
-- 視覚的に総称フォントかどうか分かりやすくする
 
 #### Hiragino Kaku Gothic ProN
 
@@ -51,8 +47,9 @@ font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino San
 #### Meiryo → "Noto Sans JP"
 
 - Noto Sans JPは2025年4月にWindowsに標準搭載
+  - `Meiryo`をフォールバックにしてもいいが今回は不採用
 - Androidの和文フォントはNoto Sans CJK JP
-  - `"Noto Sans JP"`の方が違いを減らせる
+  - `"Noto Sans JP"`の方がOS間の違いを減らせる
 
 #### フォールバックフォント
 
@@ -69,7 +66,7 @@ font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino San
 |フォールバック|sans-serif|sans-serif|
 
 ```css
-font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Noto Sans JP", sans-serif;
+font-family: "Helvetica Neue", Arial, "Hiragino Sans", "Noto Sans JP", sans-serif;
 ```
 
 ## コードフォント
@@ -78,21 +75,14 @@ font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Noto Sans JP", sans-se
 
 一般フォントと同様にApple製品、Windows、フォールバックの3種類を指定するように選択しました。
 
-### Apple製品
-
-Xcodeのデフォルトフォントを参考にします。
-
-`"SF Mono", "Menlo", "Monaco"`
-
-### Windows
-
-VSCodeのデフォルトフォントを参考にします。
-
-`"Consolas", "Courier New"`
-
-### フォールバック
-
-`monospace`
+- Apple製品
+  - Xcodeを参考
+  - `"SF Mono", Menlo, Monaco`
+- Windows
+  - VSCodeを参考
+  - `Consolas, "Courier New"`
+- フォールバック
+  - `monospace`
 
 ### 対応表と完成物
 
@@ -104,5 +94,5 @@ VSCodeのデフォルトフォントを参考にします。
 |フォールバック|monospace|
 
 ```css
-font-family: "SF Mono", "Consolas", monospace;
+font-family: "SF Mono", Consolas, monospace;
 ```

@@ -24,8 +24,8 @@
   --bg-2: var(--mono-e);
   --link: var(--blue-5);
   --border: 1px solid var(--mono-a);
-  --font-sans: "Helvetica Neue", "Arial", "Hiragino Sans", "Noto Sans JP", sans-serif;
-  --font-mono: "SF Mono", "Consolas", monospace;
+  --font-sans: "Helvetica Neue", Arial, "Hiragino Sans", "Noto Sans JP", sans-serif;
+  --font-mono: "SF Mono", Consolas, monospace;
   color-scheme: light dark;
 }
 @media (prefers-color-scheme: dark) {
