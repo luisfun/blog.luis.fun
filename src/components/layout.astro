@@ -40,9 +40,9 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 			<a href="/" class="flex">
 				<Icon name="luisfun" class="logo-icon" />{SITE_TITLE}
 			</a>
-			<button type="button" onclick={`${SEARCH_ID}.showModal()`} class="search-button flex justify-between">
+			<button type="button" onclick={`${SEARCH_ID}.showModal()`} class="search-button flex">
 				<Icon name="mdi:search" class="search-icon" />
-				<div class="search-label">検索</div><div></div>
+				<div class="search-label">検索</div>
 			</button>
 			<dialog id={SEARCH_ID} class="modal">
 				<div class="modal-box">
@@ -104,7 +104,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 		height: auto;
 	}
 	.search-label {
-		font-weight: bold;
+		font-size: 0.9375rem;
+		margin: 0 auto;
 		color: var(--text-2);
 	}
 	.modal {
