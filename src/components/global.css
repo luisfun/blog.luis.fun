@@ -24,7 +24,8 @@
   --bg-2: var(--mono-e);
   --link: var(--blue-5);
   --border: 1px solid var(--mono-a);
-  --font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Noto Sans JP", sans-serif;
+  --font-sans: "Helvetica Neue", "Arial", "Hiragino Sans", "Noto Sans JP", sans-serif;
+  --font-mono: "SF Mono", "Consolas", monospace;
   color-scheme: light dark;
 }
 @media (prefers-color-scheme: dark) {
@@ -38,7 +39,7 @@
   }
 }
 html {
-  font-family: var(--font-family);
+  font-family: var(--font-sans);
   font-size: 16px;
   line-height: 1.5;
   color: var(--text-1);
@@ -96,7 +97,7 @@ pre {
 }
 code {
   font-size: 0.9rem;
-  font-family: "SF Mono", "Consolas", monospace;
+  font-family: var(--font-mono);
 }
 table {
   border-spacing: 0;
@@ -113,7 +114,6 @@ img {
   border-radius: 0.5rem;
 }
 button {
-  display: inline-block;
   font: inherit;
   line-height: 1;
   margin: 0;
@@ -155,7 +155,7 @@ hr {
   --pagefind-ui-border: var(--text-2);
   --pagefind-ui-tag: var(--text-2);
   --pagefind-ui-border-width: 1px;
-  --pagefind-ui-font: var(--font-family);
+  --pagefind-ui-font: var(--font-sans);
 }
 mjx-container[jax="SVG"][display="true"] {
   overflow-x: auto;
