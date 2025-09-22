@@ -105,3 +105,13 @@ font-family: Arial, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
 ```css
 font-family: "SF Mono", Consolas, monospace;
 ```
+
+## その他
+
+Apple製品がBIZ UDGothicを標準搭載するようになれば、一般フォントを統一できそうだなぁと思いました。（現在はユーザーが任意で[ダウンロード可能](https://developer.apple.com/fonts/system-fonts/?q=BIZ%20UDGothic)という状態）
+
+もしかすると2026年か2027年の最適なフォント指定は、次のようになっているかもしれません。
+
+```css
+font-family: Arial, "BIZ UDGothic", sans-serif;
+```
