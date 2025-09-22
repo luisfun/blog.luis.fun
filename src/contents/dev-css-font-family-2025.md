@@ -59,9 +59,9 @@ font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino San
 - Androidの和文フォントはNoto Sans CJK JP
   - `"Noto Sans JP"`の方がOS間の表示差を減らせる
 
-#### sans-serif
+### sans-serif (2025)
 
-2025年の状況では
+多くの場合、次のフォントが使われるようです。
 
 - Apple製品：Hiragino Sans
 - Android：Noto Sans CJK JP / OS独自
