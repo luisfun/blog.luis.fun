@@ -1,5 +1,5 @@
 ---
-emoji: twemoji:passport-control
+emoji: twemoji:package
 title: Trusted Publishingでnpmパッケージを公開
 description: npmパッケージのセキュリティを少し強化したメモ
 created: 2025-09-23
