@@ -1,18 +1,19 @@
 ---
-emoji: twemoji:worm
+emoji: twemoji:japanese-dolls
 title: 2025夏アニメ - ゆるメモ
 description: 2025夏アニメの個人的なおすすめ度とちょっとした感想
 created: 2025-08-25
-updated: 2025-09-17
+updated: 2025-09-28
 ---
 
 原作をあまり読まない人のゆるいメモです。
 
 |タイトル＋公式サイト|期|おすすめ|
 |-|:-:|:-:|
+|[その着せ替え人形は恋をする](https://bisquedoll-anime.com/)|2|★★★★★|
 |[ダンダダン](https://anime-dandadan.com/)|2|★★★★★|
-|[ウィッチウォッチ](https://witchwatch-anime.com/)|続|★★★★★|
 |[サイレント・ウィッチ...](https://silentwitch.net/)||★★★★★|
+|[ウィッチウォッチ](https://witchwatch-anime.com/)|続|★★★★☆|
 |[怪獣８号](https://kaiju-no8.net/)|2|★★★★☆|
 |[転生したら第七王子だったので...](https://dainanaoji.com/)|2|★★★★☆|
 |[盾の勇者の成り上がり](https://shieldhero-anime.jp/)|4|★★★★|
@@ -24,7 +25,7 @@ updated: 2025-09-17
 |[桃源暗鬼](https://tougenanki-anime.com/)||★★★☆|
 |[異世界黙示録マイノグーラ...](https://mynoghra-anime.com/)||★★★☆|
 |[勇者パーティーを追放された白魔導師...](https://tsuiho-shiromadoshi.com/)||★★★|
-|[公女殿下の家庭教師](https://koujodenka-anime.com/)||★★★|
+|[公女殿下の家庭教師](https://koujodenka-anime.com/)||★★☆|
 
 ## 見ていて気になったこと
 
@@ -51,7 +52,6 @@ updated: 2025-09-17
 |[よふかしのうた](https://yofukashi-no-uta.com/)|2|
 |[SAKAMOTO DAYS](https://sakamotodays.jp/)|続|
 |[青春ブタ野郎...](https://ao-buta.com/)|[?](https://ao-buta.com/special/high_school/)|
-|[その着せ替え人形は恋をする](https://bisquedoll-anime.com/)|2|
 |[Dr.STONE](https://dr-stone.jp/)|4続|
 |[アークナイツ](https://arknights-anime.jp/)|3?|
 |[ぬきたし](https://nukiani.com/)||
