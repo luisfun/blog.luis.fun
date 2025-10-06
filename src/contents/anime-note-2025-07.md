@@ -11,11 +11,12 @@ updated: 2025-09-28
 |タイトル＋公式サイト|期|おすすめ|
 |-|:-:|:-:|
 |[その着せ替え人形は恋をする](https://bisquedoll-anime.com/)|2|★★★★★|
-|[ダンダダン](https://anime-dandadan.com/)|2|★★★★★|
 |[サイレント・ウィッチ...](https://silentwitch.net/)||★★★★★|
+|[ダンダダン](https://anime-dandadan.com/)|2|★★★★★|
+|[アークナイツ](https://arknights-anime.jp/)|3|★★★★☆|
+|[転生したら第七王子だったので...](https://dainanaoji.com/)|2|★★★★☆|
 |[ウィッチウォッチ](https://witchwatch-anime.com/)|続|★★★★☆|
 |[怪獣８号](https://kaiju-no8.net/)|2|★★★★☆|
-|[転生したら第七王子だったので...](https://dainanaoji.com/)|2|★★★★☆|
 |[盾の勇者の成り上がり](https://shieldhero-anime.jp/)|4|★★★★|
 |[帝乃三姉妹は案外、チョロい。](https://mikadono.family/)||★★★★|
 |[出禁のモグラ](https://dekinnomogura.com/)||★★★★|
@@ -32,6 +33,10 @@ updated: 2025-09-28
 ### サイレント・ウィッチ
 
 主人公が感動しているシーンで、虹彩をプルプル揺らすは、ちょっと違和感がある表現だなぁと思った。
+
+### アークナイツ
+
+1期2期に続き、ゲーム攻略wikiのフレーバーテキストを読まないと分からないことが多かった。ゲームをしろって誘導だと思うが、そこを除けば今期で最も良いアニメかもしれない。
 
 ### 盾の勇者の成り上がり
 
@@ -53,6 +58,5 @@ updated: 2025-09-28
 |[SAKAMOTO DAYS](https://sakamotodays.jp/)|続|
 |[青春ブタ野郎...](https://ao-buta.com/)|[?](https://ao-buta.com/special/high_school/)|
 |[Dr.STONE](https://dr-stone.jp/)|4続|
-|[アークナイツ](https://arknights-anime.jp/)|3?|
 |[ぬきたし](https://nukiani.com/)||
 |[気絶勇者と暗殺姫](https://kizetsuyusha-anime.com/)||
