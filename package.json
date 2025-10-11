@@ -18,7 +18,7 @@
     "@iconify-json/mdi": "^1.2.3",
     "@iconify-json/simple-icons": "^1.2.50",
     "@iconify-json/twemoji": "^1.2.4",
-    "astro": "^5.13.7",
+    "astro": "^5.14.4",
     "astro-icon": "^1.1.5",
     "astro-pagefind": "^1.8.5",
     "rehype-external-links": "^3.0.0",
