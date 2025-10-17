@@ -1,0 +1,47 @@
+---
+emoji: twemoji:sunset
+title: 2025秋アニメ - ゆるメモ
+description: 2025秋アニメの個人的なおすすめ度とちょっとした感想
+created: 2025-10-17
+updated: 2025-10-17
+---
+
+原作をあまり読まない人のゆるいメモです。
+
+|タイトル＋公式サイト|期|おすすめ|
+|-|:-:|:-:|
+
+DMM TVでこの時期にプラン内で見れるようになったもの
+
+|タイトル＋公式サイト|期|おすすめ|
+|-|:-:|:-:|
+|[サラリーマンが異世界に...](https://salaryman-big4.com/)||★★★☆|
+|[モブから始まる探索英雄譚](https://mobkara.com/)||未視聴|
+|[魔王様、リトライ！](https://maousama-anime.com/2024/)|2|未視聴|
+
+## 見ていて気になったこと
+
+### サラリーマンが異世界に...
+
+居酒屋シーンがちょっと冗長な回想シーンだったかなーと思わなくもない。
+
+## 見たいなぁと思ってる（まだ見てない）
+
+|タイトル＋公式サイト|期|
+|-|:-:|
+|[とんでもスキルで異世界放浪メシ](https://tondemoskill-anime.com/)|2|
+|[ワンパンマン](https://onepunchman-anime.net/)|3|
+|[ギフト『無限ガチャ』](https://mugengacha.com/)||
+|[暗殺者である俺のステータスが...](https://sutetsuyo-anime.com/)||
+|[結婚指輪物語](https://talesofweddingrings-anime.jp/)|2|
+|[嘆きの亡霊は引退したい](https://nageki-anime.com/)|2|
+|[友達の妹が俺にだけウザい](https://www.imouza-animation.com/)||
+|[無職の英雄...](https://mushoku-eiyu-anime.com/)||
+|[素材採取家の異世界旅行記](https://www.sozaisaishu-pr.com/)||
+|[顔に出ない柏田さんと顔に出る太田君](https://kashiwada-ohta.com/)||
+|[永久のユウグレ](https://towanoyuugure.com/)||
+|[アルマちゃんは家族になりたい](https://alma-chan.com/)||
+|[ちゃんと吸えない吸血鬼ちゃん](https://kyuketsuki-chan.com/)||
+|[最後にひとつだけお願いしても...](https://saihito-anime.com/)||
+|[僕のヒーローアカデミア](https://heroaca.com/)|8|
+|[SPY×FAMILY](https://spy-family.net/tvseries/)|3|
