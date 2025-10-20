@@ -3,7 +3,7 @@ emoji: twemoji:japanese-dolls
 title: 2025夏アニメ - ゆるメモ
 description: 2025夏アニメの個人的なおすすめ度とちょっとした感想
 created: 2025-08-25
-updated: 2025-09-28
+updated: 2025-10-21
 ---
 
 原作をあまり読まない人のゆるいメモです。
@@ -21,6 +21,7 @@ updated: 2025-09-28
 |[帝乃三姉妹は案外、チョロい。](https://mikadono.family/)||★★★★|
 |[出禁のモグラ](https://dekinnomogura.com/)||★★★★|
 |[ブサメンガチファイター](https://busamen-gachi-fighter.com/)||★★★★|
+|[気絶勇者と暗殺姫](https://kizetsuyusha-anime.com/)||★★★★|
 |[自動販売機に生まれ変わった俺...](https://jihanki-anime.com/)|2|★★★☆|
 |[水属性の魔法使い](https://mizuzokusei-anime.com/)||★★★☆|
 |[桃源暗鬼](https://tougenanki-anime.com/)||★★★☆|
@@ -59,4 +60,3 @@ updated: 2025-09-28
 |[青春ブタ野郎...](https://ao-buta.com/)|[?](https://ao-buta.com/special/high_school/)|
 |[Dr.STONE](https://dr-stone.jp/)|4続|
 |[ぬきたし](https://nukiani.com/)||
-|[気絶勇者と暗殺姫](https://kizetsuyusha-anime.com/)||
