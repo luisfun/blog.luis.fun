@@ -13,6 +13,7 @@ updated: 2025-10-22
 |[とんでもスキルで異世界放浪メシ](https://tondemoskill-anime.com/)|2|★★★★☆|
 |[最後にひとつだけお願いしても...](https://saihito-anime.com/)||★★★★☆|
 |[嘆きの亡霊は引退したい](https://nageki-anime.com/)|2|★★★★|
+|[アルマちゃんは家族になりたい](https://alma-chan.com/)||★★★★|
 |[ギフト『無限ガチャ』](https://mugengacha.com/)||★★★★|
 |[無職の英雄...](https://mushoku-eiyu-anime.com/)||★★★☆|
 |[素材採取家の異世界旅行記](https://www.sozaisaishu-pr.com/)||★★★☆|
@@ -41,7 +42,6 @@ DMM TVでこの時期にプラン内で見れるようになったもの
 |[友達の妹が俺にだけウザい](https://www.imouza-animation.com/)||
 |[顔に出ない柏田さんと顔に出る太田君](https://kashiwada-ohta.com/)||
 |[永久のユウグレ](https://towanoyuugure.com/)||
-|[アルマちゃんは家族になりたい](https://alma-chan.com/)||
 |[ちゃんと吸えない吸血鬼ちゃん](https://kyuketsuki-chan.com/)||
 |[僕のヒーローアカデミア](https://heroaca.com/)|8|
 |[SPY×FAMILY](https://spy-family.net/tvseries/)|3|
