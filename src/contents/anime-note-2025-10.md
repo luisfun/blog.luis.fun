@@ -3,7 +3,7 @@ emoji: twemoji:sunset
 title: 2025秋アニメ - ゆるメモ
 description: 2025秋アニメの個人的なおすすめ度とちょっとした感想
 created: 2025-10-17
-updated: 2025-10-17
+updated: 2025-10-22
 ---
 
 原作をあまり読まない人のゆるいメモです。（ニコニコ漫画で読めるものは少し履修済み）
@@ -12,8 +12,9 @@ updated: 2025-10-17
 |-|:-:|:-:|
 |[とんでもスキルで異世界放浪メシ](https://tondemoskill-anime.com/)|2|★★★★☆|
 |[最後にひとつだけお願いしても...](https://saihito-anime.com/)||★★★★☆|
-|[ギフト『無限ガチャ』](https://mugengacha.com/)||★★★★|
 |[嘆きの亡霊は引退したい](https://nageki-anime.com/)|2|★★★★|
+|[ギフト『無限ガチャ』](https://mugengacha.com/)||★★★★|
+|[無職の英雄...](https://mushoku-eiyu-anime.com/)||★★★☆|
 |[素材採取家の異世界旅行記](https://www.sozaisaishu-pr.com/)||★★★☆|
 
 DMM TVでこの時期にプラン内で見れるようになったもの
@@ -38,7 +39,6 @@ DMM TVでこの時期にプラン内で見れるようになったもの
 |[暗殺者である俺のステータスが...](https://sutetsuyo-anime.com/)||
 |[結婚指輪物語](https://talesofweddingrings-anime.jp/)|2|
 |[友達の妹が俺にだけウザい](https://www.imouza-animation.com/)||
-|[無職の英雄...](https://mushoku-eiyu-anime.com/)||
 |[顔に出ない柏田さんと顔に出る太田君](https://kashiwada-ohta.com/)||
 |[永久のユウグレ](https://towanoyuugure.com/)||
 |[アルマちゃんは家族になりたい](https://alma-chan.com/)||

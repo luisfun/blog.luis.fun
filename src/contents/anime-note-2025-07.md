@@ -3,7 +3,7 @@ emoji: twemoji:japanese-dolls
 title: 2025夏アニメ - ゆるメモ
 description: 2025夏アニメの個人的なおすすめ度とちょっとした感想
 created: 2025-08-25
-updated: 2025-10-21
+updated: 2025-10-22
 ---
 
 原作をあまり読まない人のゆるいメモです。
@@ -12,6 +12,7 @@ updated: 2025-10-21
 |-|:-:|:-:|
 |[その着せ替え人形は恋をする](https://bisquedoll-anime.com/)|2|★★★★★|
 |[サイレント・ウィッチ...](https://silentwitch.net/)||★★★★★|
+|[よふかしのうた](https://yofukashi-no-uta.com/)|2|★★★★★|
 |[ダンダダン](https://anime-dandadan.com/)|2|★★★★★|
 |[アークナイツ](https://arknights-anime.jp/)|3|★★★★☆|
 |[転生したら第七王子だったので...](https://dainanaoji.com/)|2|★★★★☆|
@@ -55,7 +56,6 @@ updated: 2025-10-21
 
 |タイトル＋公式サイト|期|
 |-|:-:|
-|[よふかしのうた](https://yofukashi-no-uta.com/)|2|
 |[SAKAMOTO DAYS](https://sakamotodays.jp/)|続|
 |[青春ブタ野郎...](https://ao-buta.com/)|[?](https://ao-buta.com/special/high_school/)|
 |[Dr.STONE](https://dr-stone.jp/)|4続|
