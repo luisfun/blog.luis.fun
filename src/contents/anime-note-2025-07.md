@@ -21,6 +21,7 @@ updated: 2025-10-22
 |[盾の勇者の成り上がり](https://shieldhero-anime.jp/)|4|★★★★|
 |[帝乃三姉妹は案外、チョロい。](https://mikadono.family/)||★★★★|
 |[出禁のモグラ](https://dekinnomogura.com/)||★★★★|
+|[ぬきたし](https://nukiani.com/)||★★★★|
 |[ブサメンガチファイター](https://busamen-gachi-fighter.com/)||★★★★|
 |[気絶勇者と暗殺姫](https://kizetsuyusha-anime.com/)||★★★★|
 |[自動販売機に生まれ変わった俺...](https://jihanki-anime.com/)|2|★★★☆|
@@ -44,6 +45,10 @@ updated: 2025-10-22
 
 4期1話~6話は、フォウルとアトラのお話。離脱はしないものの、1話中盤から6話中盤まで、主人公も視聴者も足止めを食らった感じがする。温めるねぇ？
 
+### ぬきたし
+
+一般枠で放送しているエロアニメ。エロが無かったとしても悪くはない。
+
 ### 水属性の魔法使い
 
 主人公がです・ます調を徹底している。「ですますの魔法使い」。慣れてしまえば作画の良い異世界もの。
@@ -59,4 +64,3 @@ updated: 2025-10-22
 |[SAKAMOTO DAYS](https://sakamotodays.jp/)|続|
 |[青春ブタ野郎...](https://ao-buta.com/)|[?](https://ao-buta.com/special/high_school/)|
 |[Dr.STONE](https://dr-stone.jp/)|4続|
-|[ぬきたし](https://nukiani.com/)||
