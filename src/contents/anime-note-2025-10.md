@@ -14,6 +14,7 @@ updated: 2025-10-22
 |[最後にひとつだけお願いしても...](https://saihito-anime.com/)||★★★★☆|
 |[嘆きの亡霊は引退したい](https://nageki-anime.com/)|2|★★★★|
 |[アルマちゃんは家族になりたい](https://alma-chan.com/)||★★★★|
+|[友達の妹が俺にだけウザい](https://www.imouza-animation.com/)||★★★★|
 |[ギフト『無限ガチャ』](https://mugengacha.com/)||★★★★|
 |[無職の英雄...](https://mushoku-eiyu-anime.com/)||★★★☆|
 |[素材採取家の異世界旅行記](https://www.sozaisaishu-pr.com/)||★★★☆|
@@ -39,7 +40,6 @@ DMM TVでこの時期にプラン内で見れるようになったもの
 |[ワンパンマン](https://onepunchman-anime.net/)|3|
 |[暗殺者である俺のステータスが...](https://sutetsuyo-anime.com/)||
 |[結婚指輪物語](https://talesofweddingrings-anime.jp/)|2|
-|[友達の妹が俺にだけウザい](https://www.imouza-animation.com/)||
 |[顔に出ない柏田さんと顔に出る太田君](https://kashiwada-ohta.com/)||
 |[永久のユウグレ](https://towanoyuugure.com/)||
 |[ちゃんと吸えない吸血鬼ちゃん](https://kyuketsuki-chan.com/)||
